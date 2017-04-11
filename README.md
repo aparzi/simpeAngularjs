@@ -6,7 +6,7 @@ Simple app in angularjs
 <li>Install npm</li>
 <li>Install nodejs</li>
 <li>Install bower</li>
-
+<br />
 <b>SETUP:</b>
 <li>clone this project</li>
 <li>navigate to the project folder</li>
