@@ -1,4 +1,4 @@
-# simpeAngularjs
+# simpleAngularjs
 
 Simple app in angularjs
 
