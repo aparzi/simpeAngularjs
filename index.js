@@ -2,7 +2,7 @@ var path = require('path')
 var express = require('express')
 var app = express()
 
-var htmlPath = path.join(__dirname, 'pages')
+var htmlPath = path.join(__dirname, 'src')
 
 app.use(express.static(htmlPath))
 
