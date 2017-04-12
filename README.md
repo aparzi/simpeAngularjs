@@ -9,8 +9,8 @@ Simple app in angularjs
 <li>Install bower</li>
 <br />
 <b>SETUP:</b>
-<li>clone this project</li>
-<li>navigate in the src folder</li>
-<li>bower install angular#1.6.3</li>
+<li>clone this repository</li>
+<li>npm install</li>
+<li>navigate into src folder and type the command: bower install angular#1.6.3</li>
 <li>npm start</li>
 <b>Enjoy</b>
