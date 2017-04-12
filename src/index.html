@@ -4,25 +4,44 @@
     <title>AngularJs - Application</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="bower_components/angular/angular.min.js"></script>
-    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <!-- my custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Angular Material dependecies -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="http://ngmaterial.assets.s3.amazonaws.com/svg-assets-cache.js"></script>
+    <script src="js/tab.js"></script>
   </head>
 
   <body>
 
-    <!--<ul>
-     <li><a href="default.asp">Home</a></li>
-     <li><a href="news.asp">News</a></li>
-     <li><a href="contact.asp">Contact</a></li>
-     <li><a href="about.asp">About</a></li>
-   </ul> -->
+        <md-toolbar  class="color">
+          <h2>WELCOME ANGELO</h2>
+        </md-toolbar>
 
-   <div ng-app="">
-
-    <p>Name: <input type="text" ng-model="name"></p>
-    <p>You wrote: {{ name }}</p>
-
-  </div>
+        <div ng-cloak="" class="tabsdemoDynamicHeight" ng-app="MyApp">
+          <md-content>
+            <md-tabs md-dynamic-height="" md-border-bottom="">
+              <md-tab label="one">
+                <md-content class="md-padding">
+                  <h1 class="md-display-2">Tab One</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>
+                </md-content>
+              </md-tab>
+              <md-tab label="two">
+                <md-content class="md-padding">
+                  <h1 class="md-display-2">Tab Two</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>
+                </md-content>
+              </md-tab>
+            </md-tabs>
+          </md-content>
+        </div>
 
   </body>
 </html>
